@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system_ui, sans-serif;
+}
+
+.score-circle {
+  background: conic-gradient(#22c55e var(--score), #e5e7eb 0);
+}
